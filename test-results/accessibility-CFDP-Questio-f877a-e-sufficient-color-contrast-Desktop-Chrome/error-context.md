@@ -1,0 +1,108 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - heading "CFDP Questionnaire" [level=1] [ref=e9]
+        - generic [ref=e10]: Community-based Family Development Program
+    - main [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: Step 1 of 10
+            - generic [ref=e18]: 0% Complete
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - generic [ref=e23] [cursor=pointer]: "1"
+              - paragraph [ref=e25] [cursor=pointer]: Household Identification
+            - generic [ref=e26]:
+              - generic [ref=e28] [cursor=pointer]: "2"
+              - paragraph [ref=e30] [cursor=pointer]: Head Profile
+            - generic [ref=e31]:
+              - generic [ref=e33] [cursor=pointer]: "3"
+              - paragraph [ref=e35] [cursor=pointer]: Household Composition
+            - generic [ref=e36]:
+              - generic [ref=e38] [cursor=pointer]: "4"
+              - paragraph [ref=e40] [cursor=pointer]: Housing Conditions
+            - generic [ref=e41]:
+              - generic [ref=e43] [cursor=pointer]: "5"
+              - paragraph [ref=e45] [cursor=pointer]: Health & Nutrition
+            - generic [ref=e46]:
+              - generic [ref=e48] [cursor=pointer]: "6"
+              - paragraph [ref=e50] [cursor=pointer]: Education
+            - generic [ref=e51]:
+              - generic [ref=e53] [cursor=pointer]: "7"
+              - paragraph [ref=e55] [cursor=pointer]: Livelihood & Income
+            - generic [ref=e56]:
+              - generic [ref=e58] [cursor=pointer]: "8"
+              - paragraph [ref=e60] [cursor=pointer]: Disaster Preparedness
+            - generic [ref=e61]:
+              - generic [ref=e63] [cursor=pointer]: "9"
+              - paragraph [ref=e65] [cursor=pointer]: Cultural Participation
+            - generic [ref=e66]:
+              - generic [ref=e68] [cursor=pointer]: "10"
+              - paragraph [ref=e70] [cursor=pointer]: Feedback & Aspirations
+          - generic [ref=e71]:
+            - button "Previous" [disabled]:
+              - img
+              - generic: Previous
+            - button "Next" [ref=e73] [cursor=pointer]:
+              - generic [ref=e74] [cursor=pointer]: Next
+              - img [ref=e75] [cursor=pointer]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Household Identification" [level=2] [ref=e80]
+            - paragraph [ref=e81]: "Section A: Basic household information and location details"
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e86]: Barangay *
+                  - textbox "Barangay *" [ref=e87]
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Municipality *
+                  - textbox "Municipality *" [ref=e90]
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Province *
+                  - textbox "Province *" [ref=e93]
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Region *
+                  - textbox "Region *" [ref=e96]
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]: Enumerator Name *
+                  - textbox "Enumerator Name *" [ref=e100]
+                - generic [ref=e101]:
+                  - generic [ref=e102]: Date of Interview *
+                  - textbox "Date of Interview *" [ref=e103]
+                - generic [ref=e104]:
+                  - generic [ref=e105]: Household Head Name *
+                  - textbox "Household Head Name *" [ref=e106]
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Contact Number
+                  - textbox "Contact Number" [ref=e109]
+            - generic [ref=e110]:
+              - generic [ref=e111]: Complete Address *
+              - textbox "Complete Address *" [ref=e112]
+            - generic [ref=e113]:
+              - heading "GPS Coordinates (Optional)" [level=3] [ref=e114]
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - generic [ref=e117]: Latitude
+                  - spinbutton "Latitude" [ref=e118]
+                - generic [ref=e119]:
+                  - generic [ref=e120]: Longitude
+                  - spinbutton "Longitude" [ref=e121]
+                - button "Use current location" [ref=e123] [cursor=pointer]:
+                  - generic [ref=e124] [cursor=pointer]:
+                    - img [ref=e125] [cursor=pointer]
+                    - generic [ref=e128] [cursor=pointer]: Use current location
+    - contentinfo [ref=e129]:
+      - paragraph [ref=e131]:
+        - generic [ref=e132]: © 2024 CFDP Questionnaire System
+  - generic [ref=e133]:
+    - img [ref=e135] [cursor=pointer]
+    - img [ref=e141] [cursor=pointer]
+```

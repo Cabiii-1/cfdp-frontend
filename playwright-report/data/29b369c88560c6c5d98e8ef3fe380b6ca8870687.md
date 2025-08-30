@@ -1,0 +1,124 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - heading "CFDP Questionnaire" [level=1] [ref=e9]
+        - generic [ref=e10]: Community-based Family Development Program
+    - main [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: Step 1 of 10
+            - generic [ref=e18]: 0% Complete
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - generic [ref=e23] [cursor=pointer]: "1"
+              - paragraph [ref=e25] [cursor=pointer]: Household Identification
+            - generic [ref=e26]:
+              - generic [ref=e28] [cursor=pointer]: "2"
+              - paragraph [ref=e30] [cursor=pointer]: Head Profile
+            - generic [ref=e31]:
+              - generic [ref=e33] [cursor=pointer]: "3"
+              - paragraph [ref=e35] [cursor=pointer]: Household Composition
+            - generic [ref=e36]:
+              - generic [ref=e38] [cursor=pointer]: "4"
+              - paragraph [ref=e40] [cursor=pointer]: Housing Conditions
+            - generic [ref=e41]:
+              - generic [ref=e43] [cursor=pointer]: "5"
+              - paragraph [ref=e45] [cursor=pointer]: Health & Nutrition
+            - generic [ref=e46]:
+              - generic [ref=e48] [cursor=pointer]: "6"
+              - paragraph [ref=e50] [cursor=pointer]: Education
+            - generic [ref=e51]:
+              - generic [ref=e53] [cursor=pointer]: "7"
+              - paragraph [ref=e55] [cursor=pointer]: Livelihood & Income
+            - generic [ref=e56]:
+              - generic [ref=e58] [cursor=pointer]: "8"
+              - paragraph [ref=e60] [cursor=pointer]: Disaster Preparedness
+            - generic [ref=e61]:
+              - generic [ref=e63] [cursor=pointer]: "9"
+              - paragraph [ref=e65] [cursor=pointer]: Cultural Participation
+            - generic [ref=e66]:
+              - generic [ref=e68] [cursor=pointer]: "10"
+              - paragraph [ref=e70] [cursor=pointer]: Feedback & Aspirations
+          - generic [ref=e71]:
+            - button "Previous" [disabled]:
+              - img
+              - generic: Previous
+            - button "Next" [active] [ref=e73] [cursor=pointer]:
+              - generic [ref=e74] [cursor=pointer]: Next
+              - img [ref=e75] [cursor=pointer]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Head Profile" [level=2] [ref=e80]
+            - paragraph [ref=e81]: "Section B: Information about the household head"
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e86]: Full Name *
+                  - textbox "Full Name *" [ref=e87]
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: Age *
+                    - spinbutton "Age *" [ref=e91]
+                  - generic [ref=e92]:
+                    - generic [ref=e93]: Sex *
+                    - combobox "Sex *" [ref=e94]:
+                      - option "Select" [selected]
+                      - option "Male"
+                      - option "Female"
+                - generic [ref=e95]:
+                  - generic [ref=e96]: Civil Status *
+                  - combobox "Civil Status *" [ref=e97]:
+                    - option "Select civil status" [selected]
+                    - option "Single"
+                    - option "Married"
+                    - option "Widowed"
+                    - option "Separated"
+                    - option "Live-in"
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: Educational Attainment *
+                  - combobox "Educational Attainment *" [ref=e101]:
+                    - option "Select educational level" [selected]
+                    - option "No formal education"
+                    - option "Elementary undergraduate"
+                    - option "Elementary graduate"
+                    - option "High school undergraduate"
+                    - option "High school graduate"
+                    - option "College undergraduate"
+                    - option "College graduate"
+                    - option "Post graduate"
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Occupation *
+                  - textbox "Occupation *" [ref=e104]
+                - generic [ref=e105]:
+                  - generic [ref=e106]: Monthly Income (PHP)
+                  - spinbutton "Monthly Income (PHP)" [ref=e107]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: Religion
+                - textbox "Religion" [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]: Ethnicity
+                - textbox "Ethnicity" [ref=e115]
+            - generic [ref=e116]:
+              - heading "Special Status" [level=3] [ref=e117]
+              - generic [ref=e118]:
+                - generic [ref=e119] [cursor=pointer]:
+                  - checkbox "Person with Disability (PWD)" [ref=e120]
+                  - generic [ref=e121] [cursor=pointer]: Person with Disability (PWD)
+                - generic [ref=e122] [cursor=pointer]:
+                  - checkbox "Senior Citizen (60 years and above)" [ref=e123]
+                  - generic [ref=e124] [cursor=pointer]: Senior Citizen (60 years and above)
+    - contentinfo [ref=e125]:
+      - paragraph [ref=e127]:
+        - generic [ref=e128]: © 2024 CFDP Questionnaire System
+  - generic [ref=e129]:
+    - img [ref=e131] [cursor=pointer]
+    - img [ref=e137] [cursor=pointer]
+```

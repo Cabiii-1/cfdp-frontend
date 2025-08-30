@@ -1,0 +1,124 @@
+{
+  "household_identification": {
+    "barangay": "",
+    "municipality": "",
+    "province": "",
+    "region": "",
+    "enumerator_name": "",
+    "date_of_interview": "",
+    "household_head_name": "",
+    "address": "",
+    "contact_number": "",
+    "gps_coordinates": {
+      "latitude": "",
+      "longitude": ""
+    }
+  },
+  "head_profile": {
+    "name": "",
+    "age": null,
+    "sex": "",
+    "civil_status": "",
+    "educational_attainment": "",
+    "occupation": "",
+    "monthly_income": null,
+    "religion": "",
+    "ethnicity": "",
+    "pwd_status": false,
+    "senior_citizen": false
+  },
+  "household_members": [],
+  "housing": {
+    "type_of_building": "",
+    "construction_materials": {
+      "roof": "",
+      "walls": "",
+      "floor": ""
+    },
+    "tenure_status": "",
+    "number_of_rooms": null,
+    "access_to_electricity": false,
+    "water_source": "",
+    "toilet_facility": "",
+    "waste_disposal": "",
+    "cooking_fuel": ""
+  },
+  "health": {
+    "health_insurance": {
+      "philhealth": false,
+      "private_insurance": false,
+      "hmo": false,
+      "none": false
+    },
+    "access_to_healthcare": "",
+    "common_health_issues": [],
+    "nutritional_status": {
+      "undernourished_members": null,
+      "feeding_programs": false
+    },
+    "maternal_health": {
+      "pregnant_members": null,
+      "access_to_prenatal_care": false
+    }
+  },
+  "education": {
+    "school_age_children": null,
+    "enrolled_children": null,
+    "out_of_school_youth": null,
+    "reasons_for_not_attending": [],
+    "distance_to_school": "",
+    "education_support_programs": [],
+    "adult_literacy": {
+      "literate_adults": null,
+      "illiterate_adults": null
+    }
+  },
+  "livelihood": {
+    "primary_income_source": "",
+    "secondary_income_sources": [],
+    "monthly_household_income": null,
+    "employment_status": [],
+    "skills_training": [],
+    "access_to_credit": false,
+    "savings_account": false,
+    "agricultural_activities": {
+      "owns_land": false,
+      "land_size": null,
+      "crops_grown": [],
+      "livestock": []
+    },
+    "business_activities": []
+  },
+  "disaster": {
+    "experienced_disasters": [],
+    "preparedness_measures": {
+      "emergency_kit": false,
+      "evacuation_plan": false,
+      "early_warning_system": false,
+      "disaster_insurance": false
+    },
+    "vulnerability_assessment": {
+      "flood_prone": false,
+      "earthquake_prone": false,
+      "landslide_prone": false,
+      "typhoon_prone": false
+    },
+    "recovery_support_needed": []
+  },
+  "cultural": {
+    "indigenous_community": false,
+    "cultural_practices": [],
+    "language_spoken": "",
+    "participation_in_cultural_activities": false,
+    "cultural_preservation_concerns": [],
+    "traditional_knowledge": []
+  },
+  "feedback": {
+    "priority_needs": [],
+    "suggested_programs": [],
+    "community_participation_willingness": "",
+    "preferred_communication_channels": [],
+    "additional_comments": "",
+    "satisfaction_with_government_services": null
+  }
+}
