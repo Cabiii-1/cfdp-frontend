@@ -20,7 +20,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -29,7 +29,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
           
@@ -37,7 +37,7 @@
             <Label class="text-sm font-medium">If yes, please specify:</Label>
             <Input
               v-model="formData.community_organization_specify"
-              placeholder="__________"
+              
               class="h-10 text-sm max-w-xs"
             />
           </div>
@@ -54,7 +54,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -63,7 +63,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
           
@@ -71,7 +71,7 @@
             <Label class="text-sm font-medium">Frequency:</Label>
             <Input
               v-model="formData.museum_visit_frequency"
-              placeholder="_______"
+              
               class="h-10 text-sm max-w-xs"
             />
           </div>
@@ -88,7 +88,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -97,7 +97,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
           
@@ -105,7 +105,7 @@
             <Label class="text-sm font-medium">Frequency:</Label>
             <Input
               v-model="formData.library_visit_frequency"
-              placeholder="_______"
+              
               class="h-10 text-sm max-w-xs"
             />
           </div>

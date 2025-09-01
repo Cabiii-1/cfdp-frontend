@@ -15,7 +15,7 @@
             <Input
               id="barangay_code"
               v-model="formData.barangay_code"
-              placeholder="___________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -24,7 +24,7 @@
             <Input
               id="enumerator"
               v-model="formData.enumerator"
-              placeholder="______________________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -33,7 +33,7 @@
             <Input
               id="supervisor"
               v-model="formData.supervisor"
-              placeholder="_____________________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -61,7 +61,7 @@
               <Input
                 id="household_id_number"
                 v-model="formData.household_id_number"
-                placeholder="__________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -71,7 +71,7 @@
               <Input
                 id="barangay"
                 v-model="formData.barangay"
-                placeholder="__________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -81,7 +81,7 @@
               <Input
                 id="municipality"
                 v-model="formData.municipality"
-                placeholder="__________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -107,7 +107,7 @@
               <Input
                 id="enumerator_name"
                 v-model="formData.enumerator_name"
-                placeholder="__________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -117,7 +117,7 @@
               <div class="flex items-center space-x-2">
                 <Input
                   v-model="formData.date_of_interview"
-                  placeholder="___ / ___ / 2025"
+                  
                   class="h-10 text-sm"
                 />
                 <span class="text-sm text-muted-foreground">Format: MM / DD / 2025</span>

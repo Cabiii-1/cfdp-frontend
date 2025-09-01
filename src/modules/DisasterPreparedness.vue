@@ -21,7 +21,7 @@
                   :value="true"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Yes</span>
+                <span class="text-sm">Yes</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -30,7 +30,7 @@
                   :value="false"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ No</span>
+                <span class="text-sm">No</span>
               </label>
             </div>
           </div>
@@ -45,7 +45,7 @@
                   type="checkbox"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Flood</span>
+                <span class="text-sm">Flood</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -53,7 +53,7 @@
                   type="checkbox"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Typhoon</span>
+                <span class="text-sm">Typhoon</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -61,7 +61,7 @@
                   type="checkbox"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Earthquake</span>
+                <span class="text-sm">Earthquake</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -69,7 +69,7 @@
                   type="checkbox"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Landslide</span>
+                <span class="text-sm">Landslide</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -77,7 +77,7 @@
                   type="checkbox"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Storm surges</span>
+                <span class="text-sm">Storm surges</span>
               </label>
               <div class="space-y-2">
                 <label class="flex items-center space-x-2 cursor-pointer">
@@ -86,12 +86,12 @@
                     type="checkbox"
                     class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                   />
-                  <span class="text-sm">☐ Others</span>
+                  <span class="text-sm">Others</span>
                 </label>
                 <div v-if="formData.disaster_types_experienced.others" class="ml-6">
                   <Input
                     v-model="formData.disaster_types_experienced.others_specify"
-                    placeholder="please specify ___________________________"
+                    
                     class="h-8 text-xs"
                   />
                 </div>
@@ -111,7 +111,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -120,7 +120,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>
@@ -136,7 +136,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -145,7 +145,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>

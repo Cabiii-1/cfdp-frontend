@@ -136,7 +136,7 @@
                     :value="true"
                     class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                   />
-                  <span class="text-sm">☐ Yes</span>
+                  <span class="text-sm">Yes</span>
                 </label>
                 <label class="flex items-center space-x-2 cursor-pointer">
                   <input
@@ -145,7 +145,7 @@
                     :value="false"
                     class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                   />
-                  <span class="text-sm">☐ No</span>
+                  <span class="text-sm">No</span>
                 </label>
               </div>
             </div>
@@ -161,7 +161,7 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Laptop/ PC</span>
+                    <span class="text-sm">Laptop/ PC</span>
                   </label>
                   <label class="flex items-center space-x-2 cursor-pointer">
                     <input
@@ -169,7 +169,7 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Cellular Phone</span>
+                    <span class="text-sm">Cellular Phone</span>
                   </label>
                   <label class="flex items-center space-x-2 cursor-pointer">
                     <input
@@ -177,7 +177,7 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Others</span>
+                    <span class="text-sm">Others</span>
                   </label>
                 </div>
               </div>
@@ -192,7 +192,7 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Globe Telecoms</span>
+                    <span class="text-sm">Globe Telecoms</span>
                   </label>
                   <label class="flex items-center space-x-2 cursor-pointer">
                     <input
@@ -200,7 +200,7 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Smart Telecoms</span>
+                    <span class="text-sm">Smart Telecoms</span>
                   </label>
                   <label class="flex items-center space-x-2 cursor-pointer">
                     <input
@@ -208,7 +208,7 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Starlink</span>
+                    <span class="text-sm">Starlink</span>
                   </label>
                   <label class="flex items-center space-x-2 cursor-pointer">
                     <input
@@ -216,12 +216,12 @@
                       type="checkbox"
                       class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                     />
-                    <span class="text-sm">☐ Others</span>
+                    <span class="text-sm">Others</span>
                   </label>
                   <div v-if="formData.internet_provider.others" class="mt-2">
                     <Input
                       v-model="formData.internet_provider.others_specify"
-                      placeholder="please specify ______________________"
+                      
                       class="h-8 text-xs"
                     />
                   </div>

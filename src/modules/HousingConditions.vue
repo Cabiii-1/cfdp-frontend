@@ -20,7 +20,7 @@
                 value="Concrete"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Concrete</span>
+              <span class="text-sm">Concrete</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -29,7 +29,7 @@
                 value="Semi-concrete"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Semi-concrete</span>
+              <span class="text-sm">Semi-concrete</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -38,7 +38,7 @@
                 value="Light Materials"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Light Materials</span>
+              <span class="text-sm">Light Materials</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -47,7 +47,7 @@
                 value="Makeshift"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Makeshift</span>
+              <span class="text-sm">Makeshift</span>
             </label>
           </div>
         </div>
@@ -63,7 +63,7 @@
                 value="Owned"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Owned</span>
+              <span class="text-sm">Owned</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -72,7 +72,7 @@
                 value="Rented"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Rented</span>
+              <span class="text-sm">Rented</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -81,7 +81,7 @@
                 value="Informal"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Informal</span>
+              <span class="text-sm">Informal</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -90,7 +90,7 @@
                 value="Shared"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Shared</span>
+              <span class="text-sm">Shared</span>
             </label>
           </div>
         </div>
@@ -101,7 +101,7 @@
           <Input
             v-model.number="formData.number_of_rooms"
             type="number"
-            placeholder="_______"
+            
             class="h-10 text-sm w-24"
             min="0"
           />
@@ -118,7 +118,7 @@
                 value="Piped"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Piped</span>
+              <span class="text-sm">Piped</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -127,7 +127,7 @@
                 value="Deep well"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Deep well</span>
+              <span class="text-sm">Deep well</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -136,7 +136,7 @@
                 value="Open well"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Open well</span>
+              <span class="text-sm">Open well</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -145,7 +145,7 @@
                 value="Spring"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Spring</span>
+              <span class="text-sm">Spring</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -154,13 +154,13 @@
                 value="Others"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Others</span>
+              <span class="text-sm">Others</span>
             </label>
           </div>
           <div v-if="formData.source_of_drinking_water === 'Others'" class="mt-2">
             <Input
               v-model="formData.drinking_water_others_specify"
-              placeholder="please specify _________________________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -177,7 +177,7 @@
                 value="Flush"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Flush</span>
+              <span class="text-sm">Flush</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -186,7 +186,7 @@
                 value="Septic"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Septic</span>
+              <span class="text-sm">Septic</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -195,7 +195,7 @@
                 value="Open pit"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Open pit</span>
+              <span class="text-sm">Open pit</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -204,7 +204,7 @@
                 value="None"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ None</span>
+              <span class="text-sm">None</span>
             </label>
           </div>
         </div>
@@ -220,7 +220,7 @@
                 value="Electricity"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Electricity</span>
+              <span class="text-sm">Electricity</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -229,7 +229,7 @@
                 value="Kerosene"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Kerosene</span>
+              <span class="text-sm">Kerosene</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -238,7 +238,7 @@
                 value="Solar"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Solar</span>
+              <span class="text-sm">Solar</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -247,13 +247,13 @@
                 value="Others"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Others</span>
+              <span class="text-sm">Others</span>
             </label>
           </div>
           <div v-if="formData.lighting_source === 'Others'" class="mt-2">
             <Input
               v-model="formData.lighting_others_specify"
-              placeholder="please specify __________________________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -270,7 +270,7 @@
                 value="LPG"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ LPG</span>
+              <span class="text-sm">LPG</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -279,7 +279,7 @@
                 value="Charcoal"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Charcoal</span>
+              <span class="text-sm">Charcoal</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -288,7 +288,7 @@
                 value="Wood"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Wood</span>
+              <span class="text-sm">Wood</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -297,7 +297,7 @@
                 value="Electricity"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Electricity</span>
+              <span class="text-sm">Electricity</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -306,13 +306,13 @@
                 value="Others"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Others</span>
+              <span class="text-sm">Others</span>
             </label>
           </div>
           <div v-if="formData.cooking_fuel === 'Others'" class="mt-2">
             <Input
               v-model="formData.cooking_fuel_others_specify"
-              placeholder="please specify ____________________________"
+              
               class="h-10 text-sm"
             />
           </div>

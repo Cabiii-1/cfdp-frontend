@@ -14,7 +14,7 @@
           <Label class="text-sm font-medium">Name of Household Head</Label>
           <Input
             v-model="formData.name"
-            placeholder="_________________________________"
+            
             class="h-10 text-sm"
           />
           <p class="text-xs text-muted-foreground">(First name, Middle Name, Last Name)</p>
@@ -31,7 +31,7 @@
                 value="Male"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Male</span>
+              <span class="text-sm">Male</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -40,7 +40,7 @@
                 value="Female"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Female</span>
+              <span class="text-sm">Female</span>
             </label>
           </div>
         </div>
@@ -52,7 +52,7 @@
             <Input
               v-model.number="formData.age"
               type="number"
-              placeholder="_______"
+              
               class="h-10 text-sm w-24"
               min="0"
               max="120"
@@ -72,7 +72,7 @@
                 value="Single"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Single</span>
+              <span class="text-sm">Single</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -81,7 +81,7 @@
                 value="Married"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Married</span>
+              <span class="text-sm">Married</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -90,7 +90,7 @@
                 value="Widowed"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Widowed</span>
+              <span class="text-sm">Widowed</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -99,7 +99,7 @@
                 value="Separated"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Separated</span>
+              <span class="text-sm">Separated</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -108,7 +108,7 @@
                 value="Cohabiting"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Cohabiting</span>
+              <span class="text-sm">Cohabiting</span>
             </label>
           </div>
         </div>
@@ -118,7 +118,7 @@
           <Label class="text-sm font-medium">Ethnicity</Label>
           <Input
             v-model="formData.ethnicity"
-            placeholder="____________________"
+            
             class="h-10 text-sm"
           />
         </div>
@@ -128,7 +128,7 @@
           <Label class="text-sm font-medium">Religion</Label>
           <Input
             v-model="formData.religion"
-            placeholder="____________________"
+            
             class="h-10 text-sm"
           />
         </div>
@@ -138,7 +138,7 @@
           <Label class="text-sm font-medium">Highest Education Attained</Label>
           <Input
             v-model="formData.highest_education_attained"
-            placeholder="____________________"
+            
             class="h-10 text-sm"
           />
         </div>
@@ -148,7 +148,7 @@
           <Label class="text-sm font-medium">Occupation/Source of Income</Label>
           <Input
             v-model="formData.occupation_source_of_income"
-            placeholder="____________________"
+            
             class="h-10 text-sm"
           />
         </div>
@@ -159,7 +159,7 @@
           <Input
             v-model.number="formData.monthly_income"
             type="number"
-            placeholder="____________________"
+            
             class="h-10 text-sm"
             min="0"
           />
@@ -176,7 +176,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -185,7 +185,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>
@@ -201,7 +201,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -210,7 +210,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>
@@ -226,7 +226,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -235,7 +235,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>
@@ -251,7 +251,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -260,7 +260,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
           
@@ -268,7 +268,7 @@
             <Label class="text-sm font-medium">If yes, please specify</Label>
             <Input
               v-model="formData.other_programs_specify"
-              placeholder="_____________________________________________"
+              
               class="h-10 text-sm"
             />
           </div>

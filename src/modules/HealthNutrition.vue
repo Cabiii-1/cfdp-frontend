@@ -20,7 +20,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -29,7 +29,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
           
@@ -37,7 +37,7 @@
             <Label class="text-sm font-medium">If yes, please specify</Label>
             <Input
               v-model="formData.disability_specify"
-              placeholder="_______________________________________________________________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -54,7 +54,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -63,7 +63,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
           
@@ -71,7 +71,7 @@
             <Label class="text-sm font-medium">If yes, please specify</Label>
             <Input
               v-model="formData.chronic_illness_specify"
-              placeholder="_______________________________________________________________"
+              
               class="h-10 text-sm"
             />
           </div>
@@ -88,7 +88,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -97,7 +97,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>
@@ -113,7 +113,7 @@
                 :value="true"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Yes</span>
+              <span class="text-sm">Yes</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -122,7 +122,7 @@
                 :value="false"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ No</span>
+              <span class="text-sm">No</span>
             </label>
           </div>
         </div>
@@ -138,7 +138,7 @@
                 value="Normal"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Normal</span>
+              <span class="text-sm">Normal</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -147,7 +147,7 @@
                 value="Underweight"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Underweight</span>
+              <span class="text-sm">Underweight</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -156,7 +156,7 @@
                 value="Severely Underweight"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Severely Underweight</span>
+              <span class="text-sm">Severely Underweight</span>
             </label>
             <label class="flex items-center space-x-2 cursor-pointer">
               <input
@@ -165,7 +165,7 @@
                 value="Overweight"
                 class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
               />
-              <span class="text-sm">☐ Overweight</span>
+              <span class="text-sm">Overweight</span>
             </label>
           </div>
         </div>

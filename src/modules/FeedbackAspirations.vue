@@ -18,7 +18,7 @@
               <Label class="text-xs font-medium">1.</Label>
               <Input
                 v-model="formData.family_top_3_needs.need_1"
-                placeholder="____________________________________________________________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -27,7 +27,7 @@
               <Label class="text-xs font-medium">2.</Label>
               <Input
                 v-model="formData.family_top_3_needs.need_2"
-                placeholder="____________________________________________________________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -36,7 +36,7 @@
               <Label class="text-xs font-medium">3.</Label>
               <Input
                 v-model="formData.family_top_3_needs.need_3"
-                placeholder="____________________________________________________________"
+                
                 class="h-10 text-sm"
               />
             </div>
@@ -48,7 +48,7 @@
           <Label class="text-sm font-medium">What programs do you expect from Provincial Government?</Label>
           <textarea
             v-model="formData.programs_expected_from_provincial_government"
-            placeholder="_______________________________________________________________"
+            
             class="flex min-h-[100px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             rows="4"
           ></textarea>

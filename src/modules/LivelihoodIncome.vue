@@ -17,7 +17,7 @@
             <!-- Farming -->
             <div class="space-y-2">
               <Label class="text-sm font-medium flex items-center space-x-2">
-                <span>☐ Farming</span>
+                <span>Farming</span>
               </Label>
               <Input
                 v-model.number="formData.monthly_household_income_sources.farming"
@@ -31,7 +31,7 @@
             <!-- Fishing -->
             <div class="space-y-2">
               <Label class="text-sm font-medium flex items-center space-x-2">
-                <span>☐ Fishing</span>
+                <span>Fishing</span>
               </Label>
               <Input
                 v-model.number="formData.monthly_household_income_sources.fishing"
@@ -45,7 +45,7 @@
             <!-- Employment -->
             <div class="space-y-2">
               <Label class="text-sm font-medium flex items-center space-x-2">
-                <span>☐ Employment</span>
+                <span>Employment</span>
               </Label>
               <Input
                 v-model.number="formData.monthly_household_income_sources.employment"
@@ -59,7 +59,7 @@
             <!-- Business -->
             <div class="space-y-2">
               <Label class="text-sm font-medium flex items-center space-x-2">
-                <span>☐ Business</span>
+                <span>Business</span>
               </Label>
               <Input
                 v-model.number="formData.monthly_household_income_sources.business"
@@ -73,7 +73,7 @@
             <!-- Remittances -->
             <div class="space-y-2">
               <Label class="text-sm font-medium flex items-center space-x-2">
-                <span>☐ Remittances</span>
+                <span>Remittances</span>
               </Label>
               <Input
                 v-model.number="formData.monthly_household_income_sources.remittances"
@@ -87,7 +87,7 @@
             <!-- Others -->
             <div class="space-y-2">
               <Label class="text-sm font-medium flex items-center space-x-2">
-                <span>☐ Others</span>
+                <span>Others</span>
               </Label>
               <Input
                 v-model.number="formData.monthly_household_income_sources.others"
@@ -113,7 +113,7 @@
                   :value="true"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Yes</span>
+                <span class="text-sm">Yes</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -122,7 +122,7 @@
                   :value="false"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ No</span>
+                <span class="text-sm">No</span>
               </label>
             </div>
           </div>
@@ -138,7 +138,7 @@
                   :value="true"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ Yes</span>
+                <span class="text-sm">Yes</span>
               </label>
               <label class="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -147,7 +147,7 @@
                   :value="false"
                   class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <span class="text-sm">☐ No</span>
+                <span class="text-sm">No</span>
               </label>
             </div>
 
@@ -162,7 +162,7 @@
                     value="Formal (cooperative bank or any other similar financial)"
                     class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                   />
-                  <span class="text-sm">☐ Formal (cooperative bank or any other similar financial)</span>
+                  <span class="text-sm">Formal (cooperative bank or any other similar financial)</span>
                 </label>
                 <label class="flex items-center space-x-2 cursor-pointer">
                   <input
@@ -171,7 +171,7 @@
                     value="Informal (from acquaintances, relatives, 5-6, etc.)"
                     class="w-4 h-4 text-primary focus:ring-2 focus:ring-primary/20"
                   />
-                  <span class="text-sm">☐ Informal (from acquaintances, relatives, 5-6, etc.)</span>
+                  <span class="text-sm">Informal (from acquaintances, relatives, 5-6, etc.)</span>
                 </label>
               </div>
             </div>
